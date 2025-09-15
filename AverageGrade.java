@@ -1,28 +1,20 @@
 // Write a program that will compute the average grade of the student based on the three-
 // grading system. Prelim 85, Midterm 93 and Final 87.
-
-import java.util.Scanner;
-
 public class AverageGrade {
 
     public static void main(String[] args) {
 
-        double prelims, midterms, finals, average;
-        
-        Scanner grades = new Scanner(System.in);
-
-        System.out.print("Enter your Prelims Grade: ");
-        prelims = grades.nextDouble();
-
-        System.out.print("Enter your Midterms Grade: ");
-        midterms = grades.nextDouble();
-
-        System.out.print("Enter your Finals Grade: ");
-        finals = grades.nextDouble();
-
-        grades.close();
-
+        double prelims = 85;
+        double midterms = 93;
+        double finals = 87;
+        double average;
+    
         average = (prelims + midterms + finals) / 3;
+
+        System.out.println("Your Prelims Grade is: " + prelims);
+        System.out.println("Your Midterms Grade is: " + midterms);
+        System.out.println("Your Finals Grade is: " + finals);
+
         System.out.printf("Your average grade is: %.2f%n", average);
     }
     

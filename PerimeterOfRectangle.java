@@ -26,5 +26,4 @@ public class PerimeterOfRectangle {
         System.out.printf("The perimeter of the rectangle is: %.2f%n", perimeter);
          
     }
-    
 }

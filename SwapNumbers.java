@@ -9,7 +9,6 @@ public class SwapNumbers {
 
         int number1, number2, temporary;
 
-        
         Scanner numbers = new Scanner(System.in);
 
         System.out.print("Enter the first number: ");
@@ -28,7 +27,5 @@ public class SwapNumbers {
 
         System.out.println("After swapping, number1 = " + number1 + " and number 2 = " + number2);
 
-    }
-
-    
+    } 
 }

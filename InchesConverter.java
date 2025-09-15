@@ -20,6 +20,4 @@ public class InchesConverter {
         System.out.println(feet + " feet is equal to " + inches + " inches.");
 
     }
-
-
 }

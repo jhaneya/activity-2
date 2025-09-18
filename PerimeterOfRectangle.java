@@ -20,7 +20,7 @@ public class PerimeterOfRectangle {
         compute.close();
 
         area = length * width;
-        perimeter = 2 * (length * width) ;
+        perimeter = 2 * (length + width) ;
         
         System.out.printf("The area of the rectangle is: %.2f%n", area);
         System.out.printf("The perimeter of the rectangle is: %.2f%n", perimeter);
